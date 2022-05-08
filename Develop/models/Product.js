@@ -34,6 +34,7 @@ Product.init(
       type: DataTypes.INTEGER,
       defaultValue: 10
       //validate?
+      
     },
 
     category_id: {
