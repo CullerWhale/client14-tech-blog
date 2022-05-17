@@ -5,11 +5,11 @@ const sequelize = require('./config/connection');
 
 //handle
 const exphbs = require('express-handlebars');
-// const hbs = exphbs.create({});
+const hbs = exphbs.create({});
 
 //middleware
-const helpers = require('./utils/helpers');
-const hbs = exphbs.create({ helpers });
+// const helpers = require('./utils/helpers');
+// const hbs = exphbs.create({ helpers });
 
 
 const app = express();
